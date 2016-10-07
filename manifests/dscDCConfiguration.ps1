@@ -19,8 +19,6 @@ $domainAdminCredentials = New-Object System.Management.Automation.PSCredential (
       {
           ConfigurationMode = 'ApplyAndAutoCorrect'
           RebootNodeIfNeeded = $true
-          ActionAfterReboot = 'ContinueConfiguration'
-          AllowModuleOverwrite = $true
       }
 
 
